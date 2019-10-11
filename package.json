@@ -1,6 +1,6 @@
 {
   "name": "@abadri-test/my-yarn-test",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Testing yarn dedupe",
   "main": "index.js",
   "scripts": {
