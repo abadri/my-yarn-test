@@ -3,5 +3,8 @@ module.exports = {
   bar: 'world',
   getFoo() {
     return this.foo;
+  },
+  getBar() {
+    return this.bar;
   }
 };
