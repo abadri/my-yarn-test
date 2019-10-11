@@ -1,10 +1,16 @@
-module.exports = {
-  foo: 'hello',
-  bar: 'world',
-  getFoo() {
-    return this.foo;
-  },
-  getBar() {
-    return this.bar;
+class Foo {
+  constructor() {
+    this._foo = 'hello';
+    this._bar = 'world';
   }
-};
+
+  getFoo() {
+    return this._foo;
+  }
+
+  getBar() {
+    return this._bar;
+  }
+}
+
+module.exports = new Foo();
