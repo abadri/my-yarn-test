@@ -1,4 +1,7 @@
 module.exports = {
   foo: 'hello',
-  bar: 'world'
+  bar: 'world',
+  getFoo() {
+    return this.foo;
+  }
 };
